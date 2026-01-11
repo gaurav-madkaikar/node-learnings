@@ -1,0 +1,25 @@
+{
+  "name": "node-learnings",
+  "version": "1.0.0",
+  "description": "NodeJS Tutorial Repo",
+  "homepage": "https://github.com/gaurav-madkaikar/node-learnings#readme",
+  "bugs": {
+    "url": "https://github.com/gaurav-madkaikar/node-learnings/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurav-madkaikar/node-learnings.git"
+  },
+  "license": "ISC",
+  "author": "Gaurav Madkaikar",
+  "type": "commonjs",
+  "main": "new-server-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if [ ! -d \"node_modules\" ]; then npm install; fi && node new-server-app.js",
+    "dev": "if [ ! -d \"node_modules\" ]; then npm install; fi && nodemon new-server-app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

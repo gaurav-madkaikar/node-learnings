@@ -6,3 +6,10 @@
 /message.txt
 /new-server-app.js
 /play.js
+express-js/node_modules
+/flow.md
+/previous-sonnet-flow.md
+/counter-recalc.md
+/new-opus-flow.md
+/tmp.json
+/tmp.yaml
